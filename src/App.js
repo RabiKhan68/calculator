@@ -49,7 +49,7 @@ function App() {
     pow2: () => setInput(Math.pow(eval(input), 2).toString()),
     log: () => setInput(Math.log10(eval(input)).toString()),
     ln: () => setInput(Math.log(eval(input)).toString()),
-    pi: () => setInput(input + Math.pi),
+    pi: () => setInput(input + Math.PI),
     e: () => setInput(input + Math.E),
   };
 
